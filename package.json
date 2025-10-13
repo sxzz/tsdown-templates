@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "packageManager": "pnpm@10.18.2",
+  "devDependencies": {
+    "vite": "npm:rolldown-vite@^7.1.16"
+  },
+  "resolutions": {
+    "vite": "npm:rolldown-vite@^7.1.16"
+  }
+}
