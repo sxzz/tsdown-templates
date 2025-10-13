@@ -15,6 +15,30 @@ importers:
         specifier: npm:rolldown-vite@^7.1.16
         version: rolldown-vite@7.1.16(@types/node@24.7.2)(esbuild@0.25.10)(jiti@2.6.1)(yaml@2.8.1)
 
+  default:
+    devDependencies:
+      '@types/node':
+        specifier: ^24.7.2
+        version: 24.7.2
+      bumpp:
+        specifier: ^10.3.1
+        version: 10.3.1
+      tsdown:
+        specifier: ^0.15.6
+        version: 0.15.6(typescript@5.9.3)(vue-tsc@3.1.1(typescript@5.9.3))
+      typescript:
+        specifier: ^5.9.3
+        version: 5.9.3
+      vitest:
+        specifier: ^3.2.4
+        version: 3.2.4(@types/node@24.7.2)(esbuild@0.25.10)(happy-dom@20.0.0)(jiti@2.6.1)(yaml@2.8.1)
+
+  minimal:
+    devDependencies:
+      tsdown:
+        specifier: ^0.15.6
+        version: 0.15.6(typescript@5.9.3)(vue-tsc@3.1.1(typescript@5.9.3))
+
   react:
     dependencies:
       react:

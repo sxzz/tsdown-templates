@@ -2,6 +2,8 @@
 
 A collection of templates for [tsdown](https://tsdown.dev).
 
+- [Default](./default)
+- [Minimal](./minimal)
 - [Vue](./vue)
 - [React](./react)
 - [Solid](./solid)
