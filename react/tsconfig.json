@@ -1,4 +1,5 @@
 {
+  "extends": "@tsconfig/strictest/tsconfig.json",
   "compilerOptions": {
     "target": "esnext",
     "jsx": "react-jsx",
@@ -8,14 +9,9 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "types": ["node"],
-    "strict": true,
-    "noUnusedLocals": true,
     "declaration": true,
     "emitDeclarationOnly": true,
-    "esModuleInterop": true,
-    "isolatedModules": true,
     "verbatimModuleSyntax": true,
-    "skipLibCheck": true
   },
   "include": ["src"]
 }
