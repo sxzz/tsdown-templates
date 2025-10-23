@@ -9,7 +9,12 @@ export default defineConfig([
   },
   {
     // preserve jsx in the output
-    inputOptions: { jsx: 'preserve' },
+    inputOptions(options) {
+      options.transform = {
+        ...options.transform,
+        jsx: 'preserve',
+      }
+    },
     outExtensions: () => ({ js: '.jsx' }),
   },
 ])
