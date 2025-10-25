@@ -40,5 +40,4 @@ If the command name is to be different from the package name, use an object for 
 }
 ```
 
-
 Read more on [npm](https://docs.npmjs.com/cli/v7/configuring-npm/package-json#bin).
