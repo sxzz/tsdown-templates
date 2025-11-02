@@ -7,6 +7,7 @@ A collection of templates for [tsdown](https://tsdown.dev).
 - [Vue](./vue)
 - [React](./react)
 - [Solid](./solid)
+- [Svelte](./svelte)
 
 ## License
 
