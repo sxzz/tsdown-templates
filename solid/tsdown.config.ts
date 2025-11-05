@@ -4,11 +4,12 @@ import solid from 'rolldown-plugin-solid'
 // export both js and jsx
 export default defineConfig([
   {
+    platform: 'neutral',
     // use the solid plugin to handle jsx
     plugins: [solid()],
   },
   {
-    // preserve jsx in the output
+    platform: 'neutral',
     inputOptions(options) {
       options.transform = {
         ...options.transform,
