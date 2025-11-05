@@ -19,6 +19,6 @@
     "dev": "tsdown --watch"
   },
   "devDependencies": {
-    "tsdown": "^0.15.9"
+    "tsdown": "^0.16.0"
   }
 }
