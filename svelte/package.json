@@ -27,13 +27,12 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsdown",
+    "prepublishOnly": "tsdown",
     "dev": "tsdown --watch",
     "play": "vite --config playground/vite.config.ts",
     "test": "vitest",
     "typecheck": "svelte-check --tsconfig ./tsconfig.json",
-    "release": "bumpp && pnpm publish",
-    "prepublishOnly": "pnpm run build"
+    "release": "bumpp && pnpm publish"
   },
   "peerDependencies": {
     "svelte": "^5.0.0"

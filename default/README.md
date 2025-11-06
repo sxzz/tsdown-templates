@@ -19,5 +19,5 @@ npm run test
 - Build the library:
 
 ```bash
-npm run build
+npm run prepublishOnly
 ```

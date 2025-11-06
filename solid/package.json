@@ -31,13 +31,12 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsdown",
+    "prepublishOnly": "tsdown",
     "dev": "tsdown --watch",
     "play": "vite --config playground/vite.config.ts",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
-    "release": "bumpp && pnpm publish",
-    "prepublishOnly": "pnpm run build"
+    "release": "bumpp && pnpm publish"
   },
   "peerDependencies": {
     "solid-js": "^1.9.9"

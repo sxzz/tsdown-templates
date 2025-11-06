@@ -15,7 +15,7 @@
     "./package.json": "./package.json"
   },
   "scripts": {
-    "build": "tsdown",
+    "prepublishOnly": "tsdown",
     "dev": "tsdown --watch"
   },
   "devDependencies": {
