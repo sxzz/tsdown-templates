@@ -16,8 +16,7 @@
   },
   "scripts": {
     "build": "tsdown",
-    "dev": "tsdown --watch",
-    "prepublishOnly": "pnpm run build"
+    "dev": "tsdown --watch"
   },
   "devDependencies": {
     "tsdown": "^0.16.0"
