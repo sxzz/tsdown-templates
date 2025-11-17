@@ -42,19 +42,19 @@
     "@sveltejs/package": "^2.5.4",
     "@sveltejs/vite-plugin-svelte": "^6.2.1",
     "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/svelte": "^5.2.8",
-    "@tsconfig/svelte": "^5.0.5",
-    "@types/node": "^24.10.0",
+    "@testing-library/svelte": "^5.2.9",
+    "@tsconfig/svelte": "^5.0.6",
+    "@types/node": "^24.10.1",
     "bumpp": "^10.3.1",
-    "jsdom": "^27.1.0",
+    "jsdom": "^27.2.0",
     "rollup-plugin-svelte": "^7.2.3",
-    "svelte": "^5.43.3",
-    "svelte-check": "^4.3.3",
+    "svelte": "^5.43.8",
+    "svelte-check": "^4.3.4",
     "svelte-preprocess": "^6.0.3",
     "svelte2tsx": "^0.7.45",
-    "tsdown": "0.16.0",
+    "tsdown": "0.16.4",
     "typescript": "^5.9.3",
-    "vite": "npm:rolldown-vite@^7.1.20",
-    "vitest": "^4.0.7"
+    "vite": "npm:rolldown-vite@^7.2.5",
+    "vitest": "^4.0.9"
   }
 }

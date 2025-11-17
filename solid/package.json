@@ -45,14 +45,14 @@
   "devDependencies": {
     "@solidjs/testing-library": "^0.8.10",
     "@testing-library/jest-dom": "^6.9.1",
-    "@types/node": "^24.10.0",
+    "@types/node": "^24.10.1",
     "bumpp": "^10.3.1",
     "happy-dom": "^20.0.10",
     "rolldown-plugin-solid": "^0.2.1",
-    "tsdown": "^0.16.0",
+    "tsdown": "^0.16.4",
     "typescript": "^5.9.3",
     "vite": "npm:rolldown-vite@latest",
     "vite-plugin-solid": "^2.11.10",
-    "vitest": "^4.0.7"
+    "vitest": "^4.0.9"
   }
 }
