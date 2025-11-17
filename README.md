@@ -6,6 +6,7 @@ A collection of templates for [tsdown](https://tsdown.dev).
 - [Minimal](./minimal)
 - [Vue](./vue)
 - [React](./react)
+- [React with React Compiler](./react-compiler)
 - [Solid](./solid)
 - [Svelte](./svelte)
 
