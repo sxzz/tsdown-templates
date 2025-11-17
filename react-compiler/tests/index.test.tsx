@@ -11,7 +11,9 @@ test('button', () => {
 
   expect(buttonElement).toBeInTheDocument()
   expect(buttonElement).toHaveTextContent('my button type: primary count: 0')
-  expect(buttonElement.outerHTML).toMatchInlineSnapshot(`"<button class="my-button">my button<br> type: primary<br> count: 0</button>"`)
+  expect(buttonElement.outerHTML).toMatchInlineSnapshot(
+    `"<button class="my-button">my button<br> type: primary<br> count: 0</button>"`,
+  )
 
   expect(buttonElement).toHaveClass('my-button')
 })
