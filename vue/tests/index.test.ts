@@ -1,15 +1,17 @@
-import { mount } from '@vue/test-utils'
+import { render } from 'vitest-browser-vue'
 import { expect, test } from 'vitest'
 import { MyButton } from '../src'
 
-test('button', () => {
-  const app = mount(MyButton, {
+test('button', async () => {
+  const page = render(MyButton, {
     props: {
       type: 'primary',
     },
   })
-  expect(app.text()).toMatchInlineSnapshot(`"my button type: primary count: 0"`)
-  expect(app.html()).toMatchInlineSnapshot(
+  expect(page.container.textContent).toMatchInlineSnapshot(
+    `" my button type: primary count: 0"`,
+  )
+  expect(page.container.innerHTML).toMatchInlineSnapshot(
     `"<button class="my-button"> my button<br> type: primary<br> count: 0</button>"`,
   )
 })
