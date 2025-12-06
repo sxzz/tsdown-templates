@@ -1,10 +1,9 @@
-import { render, screen } from '@solidjs/testing-library'
+import { render } from 'solid-testing-library'
 import { expect, test } from 'vitest'
 import { MyButton } from '../src'
 
 test('button', () => {
-  render(() => <MyButton type="primary" />)
-
+  const screen = render(() => <MyButton type="primary" />)
   const buttonElement = screen.getByText(/my button/i)
 
   expect(buttonElement.outerHTML).toMatchInlineSnapshot(
