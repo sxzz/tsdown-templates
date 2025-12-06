@@ -12,5 +12,5 @@ export default defineConfig({
       libRoot: './src',
       tsconfig: 'tsconfig.json',
     }),
-  ]
+  ],
 })

@@ -1,8 +1,8 @@
-import { render } from 'vitest-browser-vue'
 import { expect, test } from 'vitest'
+import { render } from 'vitest-browser-vue'
 import { MyButton } from '../src'
 
-test('button', async () => {
+test('button', () => {
   const page = render(MyButton, {
     props: {
       type: 'primary',

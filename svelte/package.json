@@ -1,28 +1,28 @@
 {
   "name": "svelte-components-starter",
+  "type": "module",
   "version": "0.0.0",
   "description": "A starter for creating a Svelte component library.",
-  "type": "module",
+  "author": "Author Name <author.name@mail.com>",
   "license": "MIT",
   "homepage": "https://github.com/author/library#readme",
-  "bugs": {
-    "url": "https://github.com/author/library/issues"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/author/library.git"
   },
-  "author": "Author Name <author.name@mail.com>",
-  "files": [
-    "dist"
-  ],
-  "main": "./dist/index.js",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/author/library/issues"
+  },
   "exports": {
     ".": "./dist/index.js",
     "./package.json": "./package.json"
   },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public"
   },

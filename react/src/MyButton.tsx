@@ -5,7 +5,7 @@ interface MyButtonProps {
 }
 
 export const MyButton: React.FC<MyButtonProps> = ({ type }) => {
-  let [count, setCount] = useState(0)
+  const [count, setCount] = useState(0)
   return (
     <button className="my-button" onClick={() => setCount(count + 1)}>
       my button

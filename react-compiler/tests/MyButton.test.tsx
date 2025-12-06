@@ -1,5 +1,5 @@
-import { render } from 'vitest-browser-react'
 import { expect, test } from 'vitest'
+import { render } from 'vitest-browser-react'
 import { MyButton } from '../src'
 
 test('button', async () => {

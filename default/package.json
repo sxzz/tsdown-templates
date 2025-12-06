@@ -1,28 +1,28 @@
 {
   "name": "tsdown-starter",
+  "type": "module",
   "version": "0.0.0",
   "description": "A starter for creating a TypeScript package.",
-  "type": "module",
+  "author": "Author Name <author.name@mail.com>",
   "license": "MIT",
   "homepage": "https://github.com/author/library#readme",
-  "bugs": {
-    "url": "https://github.com/author/library/issues"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/author/library.git"
   },
-  "author": "Author Name <author.name@mail.com>",
-  "files": [
-    "dist"
-  ],
-  "main": "./dist/index.mjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.mts",
+  "bugs": {
+    "url": "https://github.com/author/library/issues"
+  },
   "exports": {
     ".": "./dist/index.mjs",
     "./package.json": "./package.json"
   },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsdown",
     "dev": "tsdown --watch",

@@ -5,7 +5,7 @@ interface MyButtonProps {
 }
 
 export function MyButton({ type }: MyButtonProps) {
-  let [count, setCount] = createSignal(0)
+  const [count, setCount] = createSignal(0)
   return (
     <button class="my-button" onClick={() => setCount(count() + 1)}>
       my button

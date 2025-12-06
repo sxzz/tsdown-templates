@@ -1,5 +1,5 @@
-import { render } from 'vitest-browser-svelte'
 import { expect, test } from 'vitest'
+import { render } from 'vitest-browser-svelte'
 import MyButton from '../src/MyButton.svelte'
 
 test('button renders with default label', () => {

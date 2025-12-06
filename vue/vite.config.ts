@@ -1,6 +1,6 @@
+import vue from '@vitejs/plugin-vue'
 /// <reference types="vitest/config" />
 import { playwright } from '@vitest/browser-playwright'
-import vue from '@vitejs/plugin-vue'
 import { defineConfig } from 'vite'
 
 export default defineConfig({

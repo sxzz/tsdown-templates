@@ -11,10 +11,10 @@
     "types": ["node"],
     "allowJs": true,
     "strict": true,
+    "strictNullChecks": true,
     "noEmit": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "isolatedModules": true,
-    "strictNullChecks": true
+    "isolatedModules": true
   }
 }
