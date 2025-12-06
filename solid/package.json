@@ -46,13 +46,13 @@
     "@solidjs/testing-library": "^0.8.10",
     "@testing-library/jest-dom": "^6.9.1",
     "@types/node": "^24.10.1",
-    "bumpp": "^10.3.1",
-    "happy-dom": "^20.0.10",
+    "bumpp": "^10.3.2",
+    "happy-dom": "^20.0.11",
     "rolldown-plugin-solid": "^0.2.1",
-    "tsdown": "^0.16.4",
+    "tsdown": "^0.17.0",
     "typescript": "^5.9.3",
-    "vite": "npm:rolldown-vite@latest",
+    "vite": "^7.2.6",
     "vite-plugin-solid": "^2.11.10",
-    "vitest": "^4.0.9"
+    "vitest": "^4.0.15"
   }
 }
