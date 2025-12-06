@@ -33,7 +33,7 @@
   "scripts": {
     "build": "tsdown",
     "dev": "tsdown --watch",
-    "play": "vite --config playground/vite.config.ts",
+    "play": "vite",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "release": "bumpp && pnpm publish",
