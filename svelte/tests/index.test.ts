@@ -1,11 +1,9 @@
-/// <reference types="@testing-library/jest-dom" />
-
-import { render, screen } from '@testing-library/svelte'
+import { render } from 'vitest-browser-svelte'
 import { expect, test } from 'vitest'
 import MyButton from '../src/MyButton.svelte'
 
 test('button renders with default label', () => {
-  render(MyButton)
+  const screen = render(MyButton)
 
   const buttonElement = screen.getByRole('button')
   expect(buttonElement).toBeInTheDocument()
@@ -13,14 +11,14 @@ test('button renders with default label', () => {
 })
 
 test('button renders with custom label', () => {
-  render(MyButton, { props: { label: 'Count' } })
+  const screen = render(MyButton, { props: { label: 'Count' } })
 
   const buttonElement = screen.getByRole('button')
   expect(buttonElement).toHaveTextContent('Count: 0')
 })
 
 test('button increments count on click', async () => {
-  render(MyButton, { props: { label: 'Test' } })
+  const screen = render(MyButton, { props: { label: 'Test' } })
 
   const buttonElement = screen.getByRole('button')
   expect(buttonElement).toHaveTextContent('Test: 0')
@@ -38,10 +36,10 @@ test('button calls onclick callback with count', async () => {
     receivedCount = count
   }
 
-  render(MyButton, { props: { onclick: handleClick } })
+  const screen = render(MyButton, { props: { onclick: handleClick } })
 
   const buttonElement = screen.getByRole('button')
-  
+
   await buttonElement.click()
   expect(receivedCount).toBe(1)
 

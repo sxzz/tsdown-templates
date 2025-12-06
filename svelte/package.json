@@ -39,14 +39,11 @@
     "svelte": "^5.0.0"
   },
   "devDependencies": {
-    "@sveltejs/package": "^2.5.7",
     "@sveltejs/vite-plugin-svelte": "^6.2.1",
-    "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/svelte": "^5.2.9",
     "@tsconfig/svelte": "^5.0.6",
     "@types/node": "^24.10.1",
+    "@vitest/browser-playwright": "^4.0.15",
     "bumpp": "^10.3.2",
-    "jsdom": "^27.2.0",
     "rollup-plugin-svelte": "^7.2.3",
     "svelte": "^5.45.5",
     "svelte-check": "^4.3.4",
@@ -55,6 +52,7 @@
     "tsdown": "0.17.0",
     "typescript": "^5.9.3",
     "vite": "^7.2.6",
-    "vitest": "^4.0.15"
+    "vitest": "^4.0.15",
+    "vitest-browser-svelte": "^2.0.1"
   }
 }
