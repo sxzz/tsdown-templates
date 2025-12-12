@@ -5,7 +5,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   root: './playground',
-  plugins: [react({ babel: { plugins: ['babel-plugin-react-compiler'] } })],
+  plugins: [react()],
   test: {
     root: '.',
     browser: {
