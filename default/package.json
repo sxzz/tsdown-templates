@@ -31,10 +31,10 @@
     "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
-    "@types/node": "^24.10.1",
+    "@types/node": "^25.0.3",
     "bumpp": "^10.3.2",
-    "tsdown": "^0.17.0",
+    "tsdown": "^0.18.1",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.15"
+    "vitest": "^4.0.16"
   }
 }
