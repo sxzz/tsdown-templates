@@ -15,3 +15,9 @@ const count = ref(0)
     count: {{ count }}
   </button>
 </template>
+
+<style scoped>
+.my-button {
+  padding: 8px 16px;
+}
+</style>

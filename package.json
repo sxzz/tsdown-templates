@@ -1,19 +1,19 @@
 {
   "private": true,
-  "packageManager": "pnpm@10.26.0",
+  "packageManager": "pnpm@10.31.0",
   "scripts": {
     "lint": "eslint --cache",
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^7.4.3",
-    "@sxzz/prettier-config": "^2.2.6",
-    "eslint": "^9.39.2",
-    "prettier": "^3.7.4",
-    "vite": "8.0.0-beta.0"
+    "@sxzz/eslint-config": "^7.8.3",
+    "@sxzz/prettier-config": "^2.3.1",
+    "eslint": "^10.0.3",
+    "prettier": "^3.8.1",
+    "vite": "8.0.0-beta.18"
   },
   "resolutions": {
-    "vite": "8.0.0-beta.0"
+    "vite": "8.0.0-beta.18"
   },
   "prettier": "@sxzz/prettier-config"
 }
