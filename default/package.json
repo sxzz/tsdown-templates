@@ -17,8 +17,6 @@
     ".": "./dist/index.mjs",
     "./package.json": "./package.json"
   },
-  "main": "./dist/index.mjs",
-  "module": "./dist/index.mjs",
   "types": "./dist/index.d.mts",
   "files": [
     "dist"
@@ -32,6 +30,7 @@
   },
   "devDependencies": {
     "@types/node": "^25.3.5",
+    "@typescript/native-preview": "7.0.0-dev.20260309.1",
     "bumpp": "^10.4.1",
     "tsdown": "^0.21.1",
     "typescript": "^5.9.3",
