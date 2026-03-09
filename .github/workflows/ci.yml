@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        package:
+          - default
+          - minimal
+          - react
+          - react-compiler
+          - solid
+          - svelte
+          - vue
+    steps:
+      - name: Setup JS
+        uses: sxzz/workflows/setup-js@v1
+
+      - name: Build
+        run: pnpm --filter ./${{ matrix.package }} build
