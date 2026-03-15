@@ -4,6 +4,7 @@ A collection of templates for [tsdown](https://tsdown.dev).
 
 - [Default](./default)
 - [Minimal](./minimal)
+- [Vite Plus](./vite-plus)
 - [Vue](./vue)
 - [React](./react)
 - [React with React Compiler](./react-compiler)
