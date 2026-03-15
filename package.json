@@ -1,6 +1,6 @@
 {
   "private": true,
-  "packageManager": "pnpm@10.31.0",
+  "packageManager": "pnpm@10.32.1",
   "scripts": {
     "lint": "eslint --cache",
     "format": "prettier --write ."
@@ -9,11 +9,7 @@
     "@sxzz/eslint-config": "^7.8.3",
     "@sxzz/prettier-config": "^2.3.1",
     "eslint": "^10.0.3",
-    "prettier": "^3.8.1",
-    "vite": "8.0.0-beta.18"
-  },
-  "resolutions": {
-    "vite": "8.0.0-beta.18"
+    "prettier": "^3.8.1"
   },
   "prettier": "@sxzz/prettier-config"
 }
