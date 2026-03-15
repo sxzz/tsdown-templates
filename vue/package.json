@@ -30,7 +30,7 @@
     "play": "vite",
     "test": "vitest",
     "typecheck": "vue-tsc --noEmit",
-    "release": "bumpp && pnpm publish",
+    "release": "bumpp",
     "prepublishOnly": "pnpm run build"
   },
   "peerDependencies": {

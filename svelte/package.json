@@ -30,7 +30,7 @@
     "play": "vite",
     "test": "vitest",
     "typecheck": "svelte-check --tsconfig ./tsconfig.json",
-    "release": "bumpp && pnpm publish",
+    "release": "bumpp",
     "prepublishOnly": "pnpm run build"
   },
   "peerDependencies": {
