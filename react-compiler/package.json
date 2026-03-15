@@ -40,19 +40,19 @@
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
-    "@rollup/plugin-babel": "^7.0.0",
+    "@rolldown/plugin-babel": "^0.2.1",
     "@tsconfig/strictest": "^2.0.8",
-    "@types/node": "^25.3.5",
+    "@types/node": "^25.5.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^5.1.4",
-    "@vitest/browser-playwright": "^4.0.18",
+    "@vitejs/plugin-react": "^6.0.1",
+    "@vitest/browser-playwright": "^4.1.0",
     "babel-plugin-react-compiler": "^1.0.0",
-    "bumpp": "^10.4.1",
-    "tsdown": "^0.21.1",
+    "bumpp": "^11.0.0",
+    "tsdown": "^0.21.2",
     "typescript": "^5.9.3",
-    "vite": "^7.3.1",
-    "vitest": "^4.0.18",
-    "vitest-browser-react": "^2.0.5"
+    "vite": "^8.0.0",
+    "vitest": "^4.1.0",
+    "vitest-browser-react": "^2.1.0"
   }
 }
