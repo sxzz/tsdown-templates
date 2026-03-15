@@ -4,6 +4,7 @@ import { defineConfig } from 'tsdown'
 import { svelteDtsPlugin } from './scripts/tsdown-plugin-svelte-dts.js'
 
 export default defineConfig({
+  dts: true,
   platform: 'neutral',
   exports: true,
   plugins: [

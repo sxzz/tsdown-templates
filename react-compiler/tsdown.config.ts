@@ -3,8 +3,9 @@ import { reactCompilerPreset } from '@vitejs/plugin-react'
 import { defineConfig } from 'tsdown'
 
 export default defineConfig({
-  platform: 'neutral',
+  dts: true,
   exports: true,
+  platform: 'neutral',
   plugins: [
     pluginBabel({
       presets: [reactCompilerPreset()],

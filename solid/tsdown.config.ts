@@ -10,11 +10,10 @@ export default defineConfig([
   },
   {
     platform: 'neutral',
-    inputOptions(options) {
-      options.transform = {
-        ...options.transform,
+    inputOptions: {
+      transform: {
         jsx: 'preserve',
-      }
+      },
     },
     outExtensions: () => ({ js: '.jsx' }),
   },
