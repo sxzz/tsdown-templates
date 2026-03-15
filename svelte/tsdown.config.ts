@@ -5,6 +5,7 @@ import { svelteDtsPlugin } from './scripts/tsdown-plugin-svelte-dts.js'
 
 export default defineConfig({
   platform: 'neutral',
+  exports: true,
   plugins: [
     svelte({ preprocess: sveltePreprocess() }),
     svelteDtsPlugin({
