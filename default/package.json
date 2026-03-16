@@ -30,9 +30,9 @@
   },
   "devDependencies": {
     "@types/node": "^25.5.0",
-    "@typescript/native-preview": "7.0.0-dev.20260315.1",
-    "bumpp": "^11.0.0",
-    "tsdown": "^0.21.2",
+    "@typescript/native-preview": "7.0.0-dev.20260316.1",
+    "bumpp": "^11.0.1",
+    "tsdown": "^0.21.3",
     "typescript": "^5.9.3",
     "vitest": "^4.1.0"
   }

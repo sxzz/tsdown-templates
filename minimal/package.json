@@ -16,7 +16,7 @@
     "dev": "tsdown --watch"
   },
   "devDependencies": {
-    "tsdown": "^0.21.2",
+    "tsdown": "^0.21.3",
     "typescript": "^5.9.3"
   }
 }
