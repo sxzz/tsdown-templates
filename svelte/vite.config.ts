@@ -1,5 +1,5 @@
-import { svelte } from '@sveltejs/vite-plugin-svelte'
 /// <reference types="vitest/config" />
+import { svelte } from '@sveltejs/vite-plugin-svelte'
 import { playwright } from '@vitest/browser-playwright'
 import { defineConfig } from 'vite'
 
