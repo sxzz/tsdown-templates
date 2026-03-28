@@ -37,18 +37,18 @@
     "vue": "^3.0.0"
   },
   "devDependencies": {
-    "@tsdown/css": "^0.21.3",
+    "@tsdown/css": "^0.21.7",
     "@types/node": "^25.5.0",
     "@vitejs/plugin-vue": "^6.0.5",
-    "@vitest/browser-playwright": "^4.1.0",
+    "@vitest/browser-playwright": "^4.1.2",
     "bumpp": "^11.0.1",
     "playwright": "^1.58.2",
-    "tsdown": "^0.21.3",
-    "typescript": "^5.9.3",
-    "vite": "^8.0.0",
-    "vitest": "^4.1.0",
+    "tsdown": "^0.21.7",
+    "typescript": "^6.0.2",
+    "vite": "^8.0.3",
+    "vitest": "^4.1.2",
     "vitest-browser-vue": "^2.1.0",
-    "vue": "^3.5.30",
-    "vue-tsc": "^3.2.5"
+    "vue": "^3.5.31",
+    "vue-tsc": "^3.2.6"
   }
 }
