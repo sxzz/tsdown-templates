@@ -1,15 +1,15 @@
 {
   "private": true,
-  "packageManager": "pnpm@10.33.0",
+  "packageManager": "pnpm@11.0.9",
   "scripts": {
     "lint": "eslint --cache",
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^7.8.4",
+    "@sxzz/eslint-config": "^8.1.0",
     "@sxzz/prettier-config": "^2.3.1",
-    "eslint": "^10.1.0",
-    "prettier": "^3.8.1"
+    "eslint": "^10.3.0",
+    "prettier": "^3.8.3"
   },
   "prettier": "@sxzz/prettier-config"
 }
