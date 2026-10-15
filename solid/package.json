@@ -41,14 +41,14 @@
   },
   "devDependencies": {
     "@solidjs/testing-library": "^0.8.10",
-    "@types/node": "^26.1.1",
-    "@vitest/browser-playwright": "^4.1.10",
-    "bumpp": "^12.0.0",
+    "@types/node": "^26.6.5",
+    "@vitest/browser-playwright": "^5.0.5",
+    "bumpp": "^12.3.0",
     "rolldown-plugin-solid": "^0.2.1",
-    "tsdown": "^0.22.14",
+    "tsdown": "^0.23.1",
     "typescript": "^7.0.2",
-    "vite": "^8.1.5",
-    "vite-plugin-solid": "^2.11.13",
-    "vitest": "^4.1.10"
+    "vite": "^8.3.4",
+    "vite-plugin-solid": "^2.11.14",
+    "vitest": "^5.0.5"
   }
 }

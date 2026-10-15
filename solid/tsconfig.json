@@ -12,10 +12,10 @@
     "allowJs": true,
     "strict": true,
     "strictNullChecks": true,
-    "skipLibCheck": true,
     "noEmit": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "skipLibCheck": true
   }
 }

@@ -1,5 +1,6 @@
 packages:
-  - '!(node_modules)'
+  - '*'
+  - '!node_modules'
 
 allowBuilds:
   svelte-preprocess: false

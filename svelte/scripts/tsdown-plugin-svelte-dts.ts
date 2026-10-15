@@ -2,7 +2,14 @@ import { resolve } from 'node:path'
 import process from 'node:process'
 import { emitDts } from 'svelte2tsx'
 
-export function svelteDtsPlugin(options = {}) {
+interface Options {
+  declarationDir?: string
+  libRoot?: string
+  tsconfig?: string
+  svelteShimsPath?: string
+}
+
+export function svelteDtsPlugin(options: Options = {}) {
   return {
     name: 'tsdown-plugin-svelte-dts',
     async closeBundle() {
