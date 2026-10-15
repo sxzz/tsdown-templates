@@ -10,6 +10,8 @@ interface Options {
 }
 
 export function svelteDtsPlugin(options: Options = {}) {
+  const cwd = process.cwd()
+
   return {
     name: 'tsdown-plugin-svelte-dts',
     async closeBundle() {
@@ -20,14 +22,14 @@ export function svelteDtsPlugin(options: Options = {}) {
         svelteShimsPath = 'node_modules/svelte2tsx/svelte-shims-v4.d.ts',
       } = options
 
-      const declarationDirAbs = resolve(process.cwd(), declarationDir)
+      const declarationDirAbs = resolve(cwd, declarationDir)
 
       try {
         await emitDts({
           declarationDir: declarationDirAbs,
-          svelteShimsPath: resolve(process.cwd(), svelteShimsPath),
-          libRoot: resolve(process.cwd(), libRoot),
-          tsconfig: resolve(process.cwd(), tsconfig),
+          svelteShimsPath: resolve(cwd, svelteShimsPath),
+          libRoot: resolve(cwd, libRoot),
+          tsconfig: resolve(cwd, tsconfig),
         })
 
         console.log('Svelte DTS generation complete')
