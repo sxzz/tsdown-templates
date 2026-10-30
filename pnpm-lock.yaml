@@ -397,9 +397,6 @@ importers:
       '@types/node':
         specifier: ^26.6.5
         version: 26.6.5
-      bumpp:
-        specifier: ^12.3.0
-        version: 12.3.0
       typescript:
         specifier: ^7.0.2
         version: 7.0.2
